@@ -1,3 +1,5 @@
+--DESAFIO--
+
 --1--
 SELECT count(*)
 FROM Production.Product

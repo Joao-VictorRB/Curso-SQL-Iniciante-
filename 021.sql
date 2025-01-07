@@ -1,0 +1,18 @@
+--1--
+CREATE TABLE Carros(
+CarrosID  INT IDENTITY PRIMARY KEY,
+Nome VARCHAR(150) NOT NULL,
+Ano INT NOT NULL,
+Dono VARCHAR(150) NOT NULL
+
+);
+
+--2--
+ALTER TABLE Carros
+ALTER COLUMN Nome VARCHAR(200) NOT NULL
+
+--3--
+EXEC sp_RENAME 'Carros.Nome', 'NAME_CAR', 'COLUMN'
+
+--4--
+EXEC sp_RENAME 'Carros', 'Cars';
