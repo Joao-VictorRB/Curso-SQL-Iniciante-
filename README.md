@@ -1,4 +1,4 @@
-# Curso de SQL Básico
+# Curso SQL Completo 2024 [Iniciantes]
 #### Este repositório contém os commits do curso de SQL Básico, onde aprendi e apliquei diversos conceitos e comandos fundamentais para o trabalho com bancos de dados relacionais. Durante o curso, explorei desde consultas simples até técnicas mais avançadas de manipulação e análise de dados.
 ### Conceitos Aprendidos
 ### SELECT: 
